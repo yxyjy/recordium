@@ -1,5 +1,5 @@
 body{
-    background-image: url(bg2.png);
+    background-image: url(../images/bg2.png);
     background-size: cover;
 }
 
@@ -107,7 +107,7 @@ body{
 }
 
 .main2col2 button{
-    background-image:url(bg2.png);
+    background-image:url(../images/bg2.png);
     border:none;
     width:50%;
     padding: 1.3rem 1rem;

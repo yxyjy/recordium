@@ -4,7 +4,7 @@
     top:0;left:0;right:0;
     margin:0;
     width:100%;
-    background-image: url(bg3.png);
+    background-image: url(../images/bg3.png);
     background-size: cover;
     display: flex;
     padding: 8rem 0 5rem 0;
@@ -73,7 +73,7 @@
 .main1 i:hover{
     color:#57539f;
     background-color: #f3eeea;
-    cursor: url(music2.png),auto;
+    cursor: url(../images/music2.png),auto;
     padding:0.5rem 1rem 0.3rem 1rem;
 }
 
@@ -158,7 +158,7 @@
 /**MAIN CONTENT 3**/
 .main3{
     width:100%;
-    background-image: url(bg2.png);
+    background-image: url(../images/bg2.png);
     background-size: cover;
     display: flex;
     flex-direction: row;

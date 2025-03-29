@@ -1,6 +1,6 @@
 /**MAIN CONTENT 1**/
 .main1{
-    background-image: url(bg6.png);
+    background-image: url(../images/bg6.png);
     max-width: 100%;
     position: relative;
     top:0; left:0; right:0;
@@ -178,7 +178,7 @@
 }
 
 .main3 .ellie{
-    background-image: url(ellie.png);
+    background-image: url(../images/ellie.png);
     background-size: contain;
     width:200px;
     height:200px;
@@ -186,11 +186,11 @@
 }
 
 .ellie:hover{
-    background-image: url(ellie2.png);
+    background-image: url(../images/ellie2.png);
 }
 
 .main3 .matt{
-    background-image: url(matt2.png);
+    background-image: url(../images/matt2.png);
     background-size: contain;
     width:200px;
     height:200px;
@@ -198,12 +198,12 @@
 }
 
 .matt:hover{
-    background-image: url(matt.png);
+    background-image: url(../images/matt.png);
 }
 
 
 .main3 .sandra{
-    background-image: url(sandra.png);
+    background-image: url(../images/sandra.png);
     background-size: contain;
     width:200px;
     height:200px;
@@ -211,7 +211,7 @@
 }
 
 .sandra:hover{
-    background-image: url(sandra2.png);
+    background-image: url(../images/sandra2.png);
 }
 
 .main3 h4{
@@ -262,7 +262,7 @@
 
 .form{
     padding: 5rem 4rem;
-    background-image: url(formbg.png);
+    background-image: url(../images/formbg.png);
     width:70vw;
     margin-top: -2rem;
 }

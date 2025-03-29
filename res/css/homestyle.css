@@ -3,7 +3,7 @@
     position: relative;
     width:100%;
     top:0px;left:0px;right:0px;
-    background-image: url(bg5.png);
+    background-image: url(../images/bg5.png);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -185,7 +185,7 @@
     width: 100%;
     background-size:cover;
     background-attachment: fixed;
-    background-image: url(bg2.png);
+    background-image: url(../images/bg2.png);
     display: flex;
     flex-direction: row;
     justify-content: center;
