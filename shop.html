@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recordium</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <link rel="stylesheet" type="text/css" href="shopstyle.css">
+        <link rel="stylesheet" type="text/css" href="animations.css">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+        <script src="javascript.js"></script>
+    </head>
+
+    <body>
+        <!--NAVIGATION-->
+        <div class="header" id="topofthepage"> 
+            <div class="sidebar">
+                <i class="fi fi-ts-bars-staggered" id="menuclose" onclick=closeSidebar()></i>
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="shop.html"  class="active">shop</a></li>
+                    <li><a href="community.html">community</a></li>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="loginsignup.html">join us</a></li>
+                </ul>
+            </div>
+
+            <div class="topbar">
+                <img src="logo.png" alt="logo" id="logo">
+
+                <div class="navbar">
+                    <ul>
+                        <li><a href="home.html" >home</a></li>
+                        <li><a href="shop.html" class="active">shop</a></li>
+                        <li><a href="community.html">community</a></li>
+                        <li><a href="aboutus.html">about us</a></li>
+                    </ul>
+                </div>
+
+                <div class="icons">
+                    <a href="cart.html" class="iconlink"><i class="fi fi-ts-shopping-basket"></i></a>
+                    <a href="loginsignup.html" class="iconlink"><i class="fi fi-ts-circle-user"></i></a>
+                </div>
+
+            <i class="fi fi-ts-bars-staggered" onclick=getSidebar() id="menu"></i>
+    
+        </div>
+
+
+            <div class="main1">
+                <h2>something for everyone</h2>
+                <h4>find your music</h4>
+                
+                <form class="searchbar">
+                    <input type="text" id="search" placeholder="I'm looking for..."></input>
+                    <button type="submit"><i class="fi fi-rs-search"></i></button>
+                </form>
+            
+
+                <h4>on the cover: <br> melodrama by lorde</h4>
+            </div>
+
+            <div class="main2">
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="album3.png" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>melodrama</b><br>by lorde</p>
+                        <p class="p2">RM 160</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+                    <audio>
+                        <source src="liability.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="taylor.jpg" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>Anti-Hero</b><br>by Taylor Swift</p>
+                        <p class="p2">RM 160</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="AntiHero.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+        
+
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="samsmith.png" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>Unholy</b><br>by Sam Smith</p>
+                        <p class="p2">RM 170</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="Unholy.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="jungkook.png" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>3D</b><br>by BTS Jungkook</p>
+                        <p class="p2">RM 200</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="3D.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="westlife.jpg" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>My Love</b><br>by Westlife</p>
+                        <p class="p2">RM 160</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="MyLove.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="seventeen.jpg" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>God Of Music</b><br>by Seventeen</p>
+                        <p class="p2">RM 250</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="GodOfMusic.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="brunomars.png" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>24K Magic</b><br>by Bruno Mars</p>
+                        <p class="p2">RM 170</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="24kMagic.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="d&e.jpg" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>Need U</b><br>by Super Junior D&E</p>
+                        <p class="p2">RM 220</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="NeedU.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="product" onmouseover=playAudio() onmouseleave=stopAudio()>
+                    <img src="seventeen1.jpg" alt="album cover">
+                    <div class="details">
+                        <p class="p1"><b>Kidult</b><br>by Seventeen</p>
+                        <p class="p2">RM 240</p>
+                    </div>
+                    <div class="addandlike">
+                        <i class="fi fi-rs-album-circle-plus"></i>
+                        <i class="fi fi-rs-heart"></i>
+                    </div>
+					<audio>
+                        <source src="Kidult.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+            </div>
+
+            <!--MAIN CONTENT3-->
+            <div class="main3">
+                <div class="m3col1">
+                    <h2>shop our merch!</h2>
+                    <p>
+                        Step into the world of Recordium beyond the vinyl groove: our merch collection is where style meets the rhythm of your soul. Welcome to a space where passion for music merges seamlessly with standout design, bringing the essence of Recordium into your everyday life.</p>
+                </div>
+                <div class="m3col2">
+                    <div class="product2">
+                        <img src="12.png" alt="album cover">
+                        <div class="details">
+                            <p class="p1"><b>tumbler</b><br>by recordium</p>
+                            <p class="p2">RM 40</p>
+                        </div>
+                        <div class="addandlike">
+                            <i class="fi fi-rs-album-circle-plus"></i>
+                            <i class="fi fi-rs-heart"></i>
+                        </div>
+                        
+                    </div>    
+
+                    <div class="product2">
+                        <img src="10.png" alt="album cover">
+                        <div class="details">
+                            <p class="p1"><b>graphic tee</b><br>by recordium</p>
+                            <p class="p2">RM 60</p>
+                        </div>
+                        <div class="addandlike">
+                            <i class="fi fi-rs-album-circle-plus"></i>
+                            <i class="fi fi-rs-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="product2">
+                        <img src="9.png" alt="album cover">
+                        <div class="details">
+                            <p class="p1"><b>graphic tee</b><br>by recordium</p>
+                            <p class="p2">RM 60</p>
+                        </div>
+                        <div class="addandlike">
+                            <i class="fi fi-rs-album-circle-plus"></i>
+                            <i class="fi fi-rs-heart"></i>
+                        </div>
+                    </div>
+
+                    <div class="product2">
+                        <img src="11.png" alt="album cover">
+                        <div class="details">
+                            <p class="p1"><b>mug</b><br>by recordium</p>
+                            <p class="p2">RM 40</p>
+                        </div>
+                        <div class="addandlike">
+                            <i class="fi fi-rs-album-circle-plus"></i>
+                            <i class="fi fi-rs-heart"></i>
+                        </div>
+                    </div>
+  
+                </div>
+            </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="footercol1">
+               <a href="#top"><img src="logo2.png" alt ="logo2" id="logo2"></a>
+               <p>@recordium all rights reserved 2023</p>
+            </div>
+
+            <div class="footercol2">
+               <h3>see more</h3>
+               <ul>
+					<li><a href="shop.html"><p>shop</p></a></li>
+                    <li><a href="community.html"><p>community</p></a></li>
+                    <li><a href="aboutus.html"><p>about us</p></a></li>
+                    <li><a href="loginsignup.html"><p>join us</p></a></li>
+               </ul>
+               <div class="socials">
+                    <a href=""><img src="ig.png"></a>
+                    <a href=""><img src="mail.png"></a>
+                    <a href=""><img src="phone.png"></a>
+               </div>
+            </div>
+
+            <div class="footercol3">
+                <h3>credits</h3>
+                <p>uICONS BY @flaticons <br> image and videos by canva</p>
+                <script>
+                    if (Date.parse(document.lastModified) != 0)
+                    document.write('<h4><hr><i>Last modified: '+ document.lastModified + '</i></small></h4>');
+                </script>
+            </div>
+        </div>
+            
+
+    </body>
+</html>

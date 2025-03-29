@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recordium</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <link rel="stylesheet" type="text/css" href="austyle.css">
+        <link rel="stylesheet" type="text/css" href="animations.css">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        
+    <!--NAVIGATION-->
+    <div class="header" id="topofthepage"> 
+        <div class="sidebar">
+            <i class="fi fi-ts-bars-staggered" id="menuclose" onclick=closeSidebar()></i>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="shop.html"  >shop</a></li>
+                <li><a href="community.html">community</a></li>
+                <li><a href="aboutus.html" class="active">about us</a></li>
+                <li><a href="loginsignup.html">join us</a></li>
+            </ul>
+        </div>
+
+        <div class="topbar">
+            <img src="logo.png" alt="logo" id="logo">
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="home.html" >home</a></li>
+                    <li><a href="shop.html" >shop</a></li>
+                    <li><a href="community.html">commqunity</a></li>
+                    <li><a href="aboutus.html" class="active">about us</a></li>
+                </ul>
+            </div>
+
+            <div class="icons">
+                <a href="cart.html" class="iconlink"><i class="fi fi-ts-shopping-basket"></i></a>
+                <a href="loginsignup.html" class="iconlink"><i class="fi fi-ts-circle-user"></i></a>
+            </div>
+
+        <i class="fi fi-ts-bars-staggered" onclick=getSidebar() id="menu"></i>
+
+    </div>
+
+
+    <!--MAIN CONTENT 1-->
+    <div class="main1">
+        <div class="main1col1">
+            <h1>Hey,</h1>
+            <h2>this is <br> recordium.</h2>
+        </div>
+        <h4>let's get to know each other.</h4>
+        <div class="main1col2">
+            <a href="#aboutussection"><h3>about us!</h3></a>
+            <a href="#aboutyousection"><h3>about you!</h3></a>
+        </div>
+    </div>
+
+    
+
+    <!-- MAIN CONTENT 2--> 
+    <div class="main2" id="aboutussection" >
+        <div class ="main2col1">
+            <img src="vinyl4.png" alt="picture of a vinyl">
+        </div>
+        
+        <div class="main2col2">
+            <div class="main2col2title">
+                <h2>hear <br> our</h2>
+                <h1>History</h1>
+            </div>
+            <h4>Welcome to Recordium, where the rhythm of life meets the timeless charm of vinyl! We are a passion-driven indie vinyl record business founded by three friends who share a deep love for music and a commitment to preserving the soulful experience of vinyl.
+
+                At Recordium, we believe in the magic that happens when the needle meets the groove, creating an authentic connection between the artist and the listener. Our journey began with a shared dream to revive the art of collecting and playing vinyl records, bringing back the warmth, crackle, and nostalgia that only vinyl can deliver. </h4>
+            <img src="arrow.png" alt="image of an arrow">
+            <h2> meet <br> the team! </h2>
+        </div>
+    </div>
+
+
+    <!-- MAIN CONTENT 3-->
+    <div class="main3">
+        <div class="member">
+            <div class="ellie"></div>
+            <h4>ellie</h4>
+            <p>released in 1990</p>
+            <p>this cofounder of recordium likes cats more than people.</p>
+            <div class="socialaccs">
+                <img src="ig.png">
+                <img src="mail.png">
+                <img src="phone.png">
+            </div>
+        </div>
+
+        <div class="member" >
+            <div class="matt"></div>
+            <h4>matt</h4>
+            <p>released in 1990</p>
+            <p>this cofounder of recordium really <i>really</i> enjoys pineapple on pizza.</p>
+            <div class="socialaccs">
+                <img src="ig.png">
+                <img src="mail.png">
+                <img src="phone.png">
+            </div>
+        </div>
+
+        <div class="member" >
+            <div class="sandra"></div>
+            <h4>sandra</h4>
+            <p>released in >1990</p> 
+            <p>this cofounder of recordium plays I spy every chance she gets (even if she's not on trips).</p>
+            <div class="socialaccs">
+                <img src="ig.png">
+                <img src="mail.png">
+                <img src="phone.png">
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    <!--MAIN CONTENT 4-->
+    <div class ="main4" id="aboutyousection">
+        <div class="main4title">
+            <h2>How <br>about</h2>
+            <h1>You?</h1>
+        </div>
+        <h4>let us know what you think!</h4>
+
+        <div class="main4">
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter your email">
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" placeholder="Enter your phone number">
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="yourmsg">Your Message</label>
+                    <textarea id="yourmsg" placeholder="Enter your message"></textarea>
+                    <small>Error Message</small>
+                </div>
+                
+                <button>Submit</button>
+            </form>
+        </div>
+
+    <script>
+        const form = document.getElementById('form');
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const phone = document.getElementById('phone');
+        const yourmsg = document.getElementById('yourmsg');
+
+        function showError(input, message) {
+            const formControl = input.parentElement;
+            formControl.className = 'form-control error';
+            const small = formControl.querySelector('small');
+            small.innerText = message;
+        }
+
+        function showSucces(input) {
+            const formControl = input.parentElement;
+            formControl.className = 'form-control success';
+        }
+
+        function checkEmail(input) {
+            const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            if(re.test(input.value.trim())) {
+                showSucces(input)
+            }else {
+                showError(input,'Email is invalid');
+            }
+        }
+
+        function checkRequired(inputArr) {
+            inputArr.forEach(function(input){
+                if(input.value.trim() === ''){
+                    showError(input,`${getFieldName(input)} is required`)
+                }else {
+                    showSucces(input);
+                }
+            });
+        }
+
+
+        function getFieldName(input) {
+            return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+        }
+
+
+        form.addEventListener('submit',function(e) {
+            e.preventDefault();
+
+            checkRequired([name, email, phone]);
+            checkEmail(email);
+        });
+    </script>
+    </div>
+    
+     <!--FOOTER-->
+  
+        <div class="footer">
+        <div class="footercol1">
+           <a href="#top"><img src="logo2.png" alt ="logo2" id="logo2"></a>
+           <p>@recordium all rights reserved 2023</p>
+        </div>
+
+        <div class="footercol2">
+           <h3>see more</h3>
+           <ul>
+					<li><a href="shop.html"><p>shop</p></a></li>
+                    <li><a href="community.html"><p>community</p></a></li>
+                    <li><a href="aboutus.html"><p>about us</p></a></li>
+                    <li><a href="loginsignup.html"><p>join us</p></a></li>
+           </ul>
+           <div class="socials">
+                <a href=""><img src="ig.png"></a>
+                <a href=""><img src="mail.png"></a>
+                <a href=""><img src="phone.png"></a>
+           </div>
+        </div>
+
+        <div class="footercol3">
+            <h3>credits</h3>
+            <p>uICONS BY @flaticons <br> image and videos by canva</p>
+            <script>
+                if (Date.parse(document.lastModified) != 0)
+                document.write('<h4><hr><i>Last modified: '+ document.lastModified + '</i></small></h4>');
+            </script>
+            
+        </div>
+
+    <script>
+        const fname = document.getElementById("#fname");
+
+        function validateInput(){
+            
+        }
+
+        document.querySelector("button")
+    </script>
+
+    </body>
+</html>

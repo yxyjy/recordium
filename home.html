@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recordium</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <link rel="stylesheet" type="text/css" href="homestyle.css">
+        <link rel="stylesheet" type="text/css" href="animations.css">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+        <script src="javascript.js"></script>
+    </head>
+
+    <body>
+        <!--NAVIGATION-->
+        <div class="header" id="top"> 
+            <div class="sidebar">
+                <i class="fi fi-ts-bars-staggered" id="menuclose" onclick=closeSidebar()></i>
+                <ul>
+                    <li><a href="home.html" class="active">home</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="community.html">community</a></li>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="login.html">join us</a></li>
+                </ul>
+            </div>
+
+            <div class="topbar">
+                <img src="logo.png" alt="logo" id="logo">
+
+                <div class="navbar">
+                    <ul>
+                        <li><a href="home.html" class="active">home</a></li>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="community.html">community</a></li>
+                        <li><a href="aboutus.html">about us</a></li>
+                    </ul>
+                </div>
+
+                <div class="icons">
+                    <a href="cart.html" class="iconlink"><i class="fi fi-ts-shopping-basket"></i></a>
+                    <a href="loginsignup.html" class="iconlink"><i class="fi fi-ts-circle-user"></i></a>
+                </div>
+
+            </div>
+            <i class="fi fi-ts-bars-staggered" onclick=getSidebar() id="menu"></i>
+            <!--<img src="menu.png" alt="menu icon" onclick=getSidebar() id="menu">-->
+
+        </div>
+        
+        <!--MAIN CONTENT 1-->
+        <div class="main1">
+            <div class="m1col1">
+                <img src="album4.png" alt="album cover">
+            </div>
+            <div class="m1col2">
+                <h1>Record</h1>
+                <h3>of the</h3>
+                <h2>week</h2>
+                <h4>midnights by taylor swift <br>moonstone blue edition</h4>
+                <a href="shop.html">get it now!</a>
+            </div>
+        </div>
+
+        <!--MAIN CONTENT 2-->
+        <div class="main2">
+            <div class="m2col1">
+                <h2>more <br> to <br> check <br> out</h2>
+                <a href="shop.html">see more</a>
+            </div>
+            <div class="m2col2">
+                <img src="album2.jpg" alt="image of an album">
+                <img src="album3.jpg" alt="image of an album">
+                <img src="album3.png" alt="image of an album" class="hiddenimg">
+                <img src="album5.png" alt="image of an album" class="hiddenimg">
+            </div>
+        </div>
+
+        <!--MAIN CONOTENT 3-->
+        <div class="main3">
+            <video autoplay loop muted>
+                <source src="bgvid3.mp4">
+                Your browser does not support the video.
+            </video>
+            <a href="community.html">check out the community!</a>
+        </div>
+
+        <!--MAIN CONTENT 4-->
+        <div class="main4">
+            <div class="m4col1">
+                <img src="vinyl4.png" alt="image of a vinyl" class="spinvinyl">
+                <img src="elements.png" alt="image elements" id="elements">
+            </div>
+            <div class="m4col2">
+                <h4>listen to <br> our story</h4>
+                <a href="aboutus.html">about us</a>
+            </div>
+            <div class="m4col3">
+                <h2>want <br> to <br> keep <br> in the <br> loop?</h2>
+                <h4>subscribe to our newsletter!</h4>
+                <div class="newsletter">
+                    <form>
+                    <input type="email" name="email" id="subemail" placeholder="Please enter your email." required> 
+                    <button type="submit" name="submit" id="submitsubscribe" ><i class="fi fi-ts-angle-small-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer">
+            <div class="footercol1">
+               <a href="#top"><img src="logo2.png" alt ="logo2" id="logo2"></a>
+               <p>@recordium all rights reserved 2023</p>
+            </div>
+
+            <div class="footercol2">
+               <h3>see more</h3>
+               <ul>
+                    <li><a href="shop.html"><p>shop</p></a></li>
+                    <li><a href="community.html"><p>community</p></a></li>
+                    <li><a href="aboutus.html"><p>about us</p></a></li>
+                    <li><a href="loginsignup.html"><p>join us</p></a></li>
+               </ul>
+               <div class="socials">
+                    <a href=""><img src="ig.png"></a>
+                    <a href=""><img src="mail.png"></a>
+                    <a href=""><img src="phone.png"></a>
+               </div>
+            </div>
+
+            <div class="footercol3">
+                <h3>credits</h3>
+                <p>uICONS BY @flaticons <br> image and videos by canva</p>
+                <script>
+                    if (Date.parse(document.lastModified) != 0)
+                    document.write('<h4><hr><i>Last modified: '+ document.lastModified + '</i></small></h4>');
+                </script>
+            </div>
+        </div>
+
+
+
+
+
+        
+    </body>
+</html>
