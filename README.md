@@ -7,3 +7,9 @@ Screenshots
 
 - shop
   ![image](https://github.com/user-attachments/assets/11678ac6-91e4-49a4-891a-686411dbecdf)
+
+- shopping cart
+  ![image](https://github.com/user-attachments/assets/8b066b3e-4797-4530-9ac3-f2f04f499bc2)
+
+- about us
+  ![Uploading image.png…]()
